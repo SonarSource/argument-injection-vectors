@@ -1,5 +1,5 @@
 ---
-description: Most invocations of zip are likely to be vulnerable, as it doesn't support the [end-of-options switch](/remediation) before the archive name.
+description: Most invocations of zip are likely to be vulnerable, as it doesn't support the [end-of-options switch](../../remediation/) before the archive name.
 functions:
   command:
     - description: |

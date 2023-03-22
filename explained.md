@@ -35,7 +35,7 @@ Any argument that starts with `-` and is not strictly `-` or `--` is called an o
 POSIX-compliant argument parsers support a special switch named end-of-options, represented as `--`. 
 All arguments placed after the end-of-options are treated as operands, even if they start with an hyphen (`-`). 
 
-More information on the end-of-options switch to avoid argument injection vulnerabilities can be found on the [Remediation](/remediation/) page.
+More information on the end-of-options switch to avoid argument injection vulnerabilities can be found on the [Remediation]({{ "/remediation/" | relative_url }}) page.
 
 ## Argument Injection
 

@@ -1,5 +1,7 @@
 title: Argument Injection Vectors
 
+baseurl: /argument-injection-vectors
+
 collections:
   binaries:
     output: true
