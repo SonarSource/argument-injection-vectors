@@ -1,0 +1,17 @@
+---
+command:
+  label: Command
+  description: It can be used to break out from restricted environments by running non-interactive system commands.
+
+file-write:
+  label: File write
+  description: It writes data to files, it may be used to do privileged writes or write files outside a restricted file system.
+
+file-read:
+  label: File read
+  description: It reads data from files, it may be used to do privileged reads or disclose files outside a restricted file system.
+
+library-load:
+  label: Library load
+  description: It loads shared libraries that may be used to run code in the binary execution context.
+---

@@ -1,0 +1,21 @@
+title: Argument Injection Vectors
+
+collections:
+  binaries:
+    output: true
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - _site
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: '_binaries'
+    values:
+      layout: bin

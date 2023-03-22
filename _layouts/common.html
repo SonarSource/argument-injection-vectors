@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            {% if page.url != '/' %}
+            {% if page.layout == 'bin' %}
+            {{ page.title | downcase }}
+            {% else %}
+            {{ page.title }}
+            {% endif %}
+            |
+            {% endif %}
+            {{ site.title }}
+        </title>
+        <link rel="icon" href="/assets/logo.png">
+        <link rel="stylesheet" href="/assets/style.css" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    </head>
+    <body>
+        {{ content }}
+        <script>
+         // add permalink on headings
+         document.querySelectorAll('h2, h3, h4, h5, h5').forEach((heading) => {
+             const link = document.createElement('a');
+             link.className = 'permalink';
+             link.href = `#${heading.id}`;
+             heading.appendChild(link);
+         });
+        </script>
+    </body>
+</html>
