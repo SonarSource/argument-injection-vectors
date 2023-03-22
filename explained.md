@@ -26,7 +26,7 @@ It becomes increasingly rare but can still happen in historical software (e.g., 
 
 Arguments passed to a program can be divided into options, option-arguments, and operands as shown in the following picture:
 
-<img src="../assets/arguments.svg" width="500px"/>
+<img src="{{ site.baseurl }}/assets/arguments.svg" width="500px"/>
 
 Any argument that starts with `-` and is not strictly `-` or `--` is called an option. Parsers usually support two forms of options: long ones like `--foo` and short ones like `-f`, where short forms can sometimes be aliases for long forms. Options can expect arguments, for instance, `--foo 1337`, where `--foo` is the option and `1337` the argument. 
 
