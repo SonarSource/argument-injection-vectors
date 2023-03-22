@@ -9,13 +9,13 @@ Vectors listed below are not vulnerabilities in the associated programs but rath
 
 If you would like to know more on this topic, you can visit:
 
-- [Argument Injections Explained](/explained)
-- [Tools](/tools)
-- [Remediation](/remediation)
+- [Argument Injections Explained]({{ "/explained/" | relative_url }})
+- [Tools]({{ "/tools/" | relative_url }})
+- [Remediation]({{ "/remediation/" | relative_url }})
 
 **Contributing**
 
-[Contributions](/contributing) to this list are very welcome. Feel free to open issues [on the repository](https://github.com/SonarSource/argument-injection-vectors) if you would like to see payloads on a specific program, or a pull request if you are already aware of exploitable flags in a target. Links to public write-ups are appreciated when adding a payload. 
+[Contributions]({{ "/contributing/" | relative_url }}) to this list are very welcome. Feel free to open issues [on the repository](https://github.com/SonarSource/argument-injection-vectors) if you would like to see payloads on a specific program, or a pull request if you are already aware of exploitable flags in a target. Links to public write-ups are appreciated when adding a payload. 
 
 The code of this website is based on [GTFObins](https://gtfobins.github.io/) and is released under GNU General Public License v3.0.
 

@@ -26,7 +26,7 @@ It becomes increasingly rare but can still happen in historical software (e.g., 
 
 Arguments passed to a program can be divided into options, option-arguments, and operands as shown in the following picture:
 
-<img src="../assets/arguments.svg" width="500px"/>
+<img src="{{ site.baseurl }}/assets/arguments.svg" width="500px"/>
 
 Any argument that starts with `-` and is not strictly `-` or `--` is called an option. Parsers usually support two forms of options: long ones like `--foo` and short ones like `-f`, where short forms can sometimes be aliases for long forms. Options can expect arguments, for instance, `--foo 1337`, where `--foo` is the option and `1337` the argument. 
 
@@ -35,7 +35,7 @@ Any argument that starts with `-` and is not strictly `-` or `--` is called an o
 POSIX-compliant argument parsers support a special switch named end-of-options, represented as `--`. 
 All arguments placed after the end-of-options are treated as operands, even if they start with an hyphen (`-`). 
 
-More information on the end-of-options switch to avoid argument injection vulnerabilities can be found on the [Remediation](/remediation/) page.
+More information on the end-of-options switch to avoid argument injection vulnerabilities can be found on the [Remediation]({{ "/remediation/" | relative_url }}) page.
 
 ## Argument Injection
 

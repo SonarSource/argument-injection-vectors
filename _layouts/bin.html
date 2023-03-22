@@ -38,7 +38,7 @@ layout: common
 <ul>
 {% for entries in page.functions[function_id] %} 
     {% for ref in entries.references %}
-        <li><a href="{{ ref.url }}">{{ ref.title | markdownify }}</a></li>
+        <li><a href="{{ ref.url | relative_url }}">{{ ref.title | markdownify }}</a></li>
     {% endfor %}
 {% endfor %}
 </ul>

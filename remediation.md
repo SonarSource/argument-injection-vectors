@@ -44,7 +44,7 @@ drwxrwxrwt  9 [...] ..
 
 ## Without POSIX-compliant argument parsing
 
-When dealing with programs that do not handle end-of-options, for instance [`zip`](/binaries/zip) and its custom argument parsing, the safest way to proceed is to prefix any user-controlled path by `./` or `/`. 
+When dealing with programs that do not handle end-of-options, for instance [`zip`]({{ "/binaries/zip" | relative_url }}) and its custom argument parsing, the safest way to proceed is to prefix any user-controlled path by `./` or `/`.
 
 See the fix for elFinder's [CVE-2021-32682](https://github.com/Studio-42/elFinder/commit/a106c350b7dfe666a81d6b576816db9fe0899b17#diff-85602823cf2cdaf2502dc4f1b97001ffc0f083652aef175d9f068a5bfe90ca71R6875-R6882 ) for an implementation example.
 

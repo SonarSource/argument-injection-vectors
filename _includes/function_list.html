@@ -3,6 +3,6 @@
     {% assign function_id = function_pair[0] %}
     {% assign function = function_pair[1] %}
     {% unless include.bin.functions[function_id] %}{% continue %}{% endunless %}
-    <li><a href="{{ include.bin.url }}#{{ function_id }}">{{ function.label }}</a></li>
+    <li><a href="{{ include.bin.url | relative_url }}#{{ function_id }}">{{ function.label }}</a></li>
     {% endfor %}
 </ul>
