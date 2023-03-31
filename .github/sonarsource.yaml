@@ -3,6 +3,5 @@ version: "0.2.0"
 extra:
   license:
     path: LICENSE
-    spdx_id: GPL-3.0-or-later
     different_license: GPL-3.0
     reason: This project is making use of GPL licensed code
