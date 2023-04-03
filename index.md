@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Argument Injecton Vectors ✨
+title: Argument Injection Vectors ✨
 ---
 
 A curated list of exploitable options when dealing with argument injection bugs!
