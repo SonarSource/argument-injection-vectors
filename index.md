@@ -13,6 +13,12 @@ If you would like to know more on this topic, you can visit:
 - [Tools]({{ "/tools/" | relative_url }})
 - [Remediation]({{ "/remediation/" | relative_url }})
 
+**What's the difference with GTFOBins?**
+
+GTFOBins' goal is to "bypass local security restrictions in misconfigured systems", and that's not what we're trying to achieve with our project. We want to provide a list dedicated to helping vulnerability researchers to exploit argument injection bugs. 
+
+While some content from the two projects may overlap (i.e., when a sudoer rule allows arbitrary parameters on a command), having a separate list dedicated to these vectors is also more efficient. Users spend less time filtering out vectors that won't apply in their case and get access to similar public advisories and write-ups. 
+
 **Contributing**
 
 [Contributions]({{ "/contributing/" | relative_url }}) to this list are very welcome. Feel free to open issues [on the repository](https://github.com/SonarSource/argument-injection-vectors) if you would like to see payloads on a specific program, or a pull request if you are already aware of exploitable flags in a target. Links to public write-ups are appreciated when adding a payload. 
