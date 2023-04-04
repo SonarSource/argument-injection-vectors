@@ -17,7 +17,7 @@ If you would like to know more on this topic, you can visit:
 
 GTFOBins' goal is to "bypass local security restrictions in misconfigured systems", and that's not what we're trying to achieve with our project. We want to provide a list dedicated to helping vulnerability researchers to exploit argument injection bugs. 
 
-While some content from the two projects may overlap (i.e., when a sudoer rule allows arbitrary parameters on a command), having a separate list dedicated to these vectors is also more efficient. User spend less time filtering out vectors that won't apply in their case and get access to similar public advisories and write-ups. 
+While some content from the two projects may overlap (i.e., when a sudoer rule allows arbitrary parameters on a command), having a separate list dedicated to these vectors is also more efficient. Users spend less time filtering out vectors that won't apply in their case and get access to similar public advisories and write-ups. 
 
 **Contributing**
 
