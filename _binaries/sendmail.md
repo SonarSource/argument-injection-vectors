@@ -11,5 +11,5 @@ functions:
         - title: Why mail() is dangerous in PHP
           url: https://www.sonarsource.com/blog/why-mail-is-dangerous-in-php/
         - title: CVE-2022-39265 in MyBB < 1.8.31
-          URL: https://github.com/mybb/mybb/security/advisories/GHSA-hxhm-rq9f-7xj7
+          url: https://github.com/mybb/mybb/security/advisories/GHSA-hxhm-rq9f-7xj7
 ---
