@@ -13,6 +13,8 @@ If you would like to know more on this topic, you can visit:
 - [Tools]({{ "/tools/" | relative_url }})
 - [Remediation]({{ "/remediation/" | relative_url }})
 
+This project also maintains an association between CVEs and vectors on the page [CVEs]({{ "/cves/" | relative_url }}).
+
 **What's the difference with GTFOBins?**
 
 GTFOBins' goal is to "bypass local security restrictions in misconfigured systems", and that's not what we're trying to achieve with our project. We want to provide a list dedicated to helping vulnerability researchers to exploit argument injection bugs. 
