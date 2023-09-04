@@ -4,4 +4,4 @@ extra:
   license:
     path: LICENSE
     different_license: GPL-3.0
-    reason: This project is making use of GPL licensed code
+    reason: This project is making use of GPL licensed code (https://github.com/GTFOBins/GTFOBins.github.io)
