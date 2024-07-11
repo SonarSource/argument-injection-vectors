@@ -2,7 +2,7 @@
 functions:
   command:
     - description: |
-        The `--split-string` allows supplying multiple additional arguments. The first
+        The `--split-string` allows multiple additional arguments to be supplied. The first
         positional argument not containing an equals sign (`=`) will be executed as a
         command, all following arguments are passed to that command as arguments.
       code: |-

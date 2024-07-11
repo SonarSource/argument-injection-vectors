@@ -4,7 +4,7 @@ functions:
     - description: |
         `git tag` supports the option `--file` to read the tag message from a file. To
         retrieve the file contents later, you need to have access to tags and their tag
-        messages. This might be possible within the target application, or by cloning
+        messages. This might be possible within the target application or by cloning
         the repo and manually extracting the tag message via
         `git cat-file -p refs/tags/<tagname>`
       code: |-
