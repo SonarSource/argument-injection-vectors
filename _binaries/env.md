@@ -2,9 +2,6 @@
 functions:
   command:
     - description: |
-        The `--split-string` vector requires a positional argument in addition to
-        the injected argument. If possible, use a colon in the positional argument
-        to always trigger the command.
         The `--split-string` allows supplying multiple additional arguments. The first
         positional argument not containing an equals sign (`=`) will be executed as a
         command, all following arguments are passed to that command as arguments.
