@@ -1,2 +1,2 @@
 # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
-.github/CODEOWNERS @sonarsource/r-d-team
+.github/CODEOWNERS @sonarsource/security-zero-day-squad
